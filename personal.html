@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhranil Das - Web Developer</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        #hero {
+            background-color: #f4f4f47c;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-content img {
+            border-radius: 50%;
+            max-width: 150px;
+            border: 4px solid #fff;
+        }
+
+        .skills {
+            margin-top: 20px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        /* About Me Section */
+        #about {
+            background-color: #fcfcfc5e;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Projects Section */
+        #projects {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .project-gallery {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+        }
+
+        .contact-form button {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #ddd;
+        }
+
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Subhranil Das</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Innovative Web Developer</h2>
+            <img src="C:\Users\Soumyajit\Documents\Portfolio\soumyajit.jpg" alt="Soumyajit Mondal">
+            <p>Passionate about creating digital experiences.</p>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li><h4>HTML</h4></li>
+                    <li><h4>CSS</h4></li>
+                    <li><h4>JavaScript</h4></li>
+                    <li><h4>React</h4></li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm a web developer with a passion for crafting engaging digital experiences.</p>
+            <h3>Background</h3>
+            <p>I started my journey into web development because of my keen interest about it, Love coding and learing day by day.</p>
+            <h3>Education</h3>
+            <p>I am currently studing in Haldia Institue of Technology, 3rd year(Electrical Engineerin) department.</p>
+            <h3>Professional Experience</h3>
+            <p>There is no Professional Experience as I am under graduate.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-gallery">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Name : Fault Analysis in Electrical using Machine Learning</h3>
+                <p>Fault analysis in electrical systems involves identifying and diagnosing abnormalities or malfunctions within the system that may lead to operational disruptions, equipment damage, or safety hazards. Traditional fault analysis methods typically rely on manual inspection, historical data analysis, and expert knowledge. However, with the advancements in machine learning (ML) and artificial intelligence (AI), there's a growing interest in using these technologies to automate and enhance fault analysis processes in electrical systems.
+
+                   <p> Machine learning techniques can be applied to electrical fault analysis in various ways:</p>
+                    
+                   <p> 1. Data-driven Fault Detection </p>
+                   <p> 2. Fault Classification </p>
+                   <p> 3. Predictive Maintenance </p>
+                   <p> 4. Root Cause Analysis </p>
+                   <p> 5. Fault Localization </p>
+                   <p> 6. Pattern Recognition </p>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="gmail" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+               <p> <a href="https://www.linkedin.com/in/subhranil-das-3319672ba/">LinkedIn</a> </p>
+                <a href="https://github.com/subhranil2003">GitHub</a>
+                <a href="mailto: subhranildas.haldia@gmail.com">Gamil</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
